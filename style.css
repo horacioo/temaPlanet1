@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lato|Playfair+Display|Wendy+One');
+
+.alignleft{float:left;}
+.alignright{float:right;}
+.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.alignleft,.alignright,.aligncenter{margin: 10px!important; border-radius: 5px;}
+
+.monster{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.home img{margin: 0;}
+
+
+h1,h2,h3{
+    text-transform: capitalize;
+    font-family: 'Anton', sans-serif;
+}
+header{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    clear: both;
+    z-index: 10px;
+}
+body{
+    font-family: 'Lato';
+    font-size: 15px;    
+    line-height: 25px;
+    font-style:normal;
+    font-weight: 300;
+}
+.home > div{
+    height: auto; 
+    overflow: auto; 
+    /*padding-bottom: 10px; 
+    padding-top: 4px; 
+    padding-left: 0px; 
+    padding-right: 0px;*/
+}
+.Redes_Sociais_P1 a{margin-right: 2px;}
+
+.coluna_2{float: left; width: 45%; padding: 3px;}
+.coluna_3{float: left; width: 32%; padding: 3px;}
+.coluna_4{float: left; width: 24.5%; padding: 3px;}
+.coluna_5{float: left; width: 19.5%; padding: 3px;}
+
+
+.col-lg-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.navbar-default{background-color:rgba(255, 255, 0, 0); border: 0;}
+
+p h1{width: 800px; text-align: center;}
+
+footer{
+    min-height: 200px;
+    height: auto;
+    overflow: auto;
+    padding: 10px;
+}
+
+.conteudo_home{border: 0px solid red; padding: 20px;}
+
+article{ 
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
