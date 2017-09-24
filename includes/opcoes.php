@@ -10,7 +10,7 @@ function twtema_decricoes_do_header($wp_customize) {
     $wp_customize->add_panel('twtema_descricoes', [
         'priority' => 800,
         'theme_supports' => '',
-        'title' => 'Cor do rodape',
+        'title' => 'Mais Cores',
         'description' => 'Aqui você vai escolher as cores do rodapé',
     ]);
 
@@ -25,7 +25,7 @@ function twtema_decricoes_do_header($wp_customize) {
 
     // adiciona uma sessão
     $wp_customize->add_section('twtema_descricoes_header', [
-        'title' => 'Escolha uma cor para o rodape',
+        'title' => 'defina aqui mais cores para o layout',
         'panel' => 'twtema_descricoes',
         'priority' => 10
     ]);

@@ -27,13 +27,9 @@
                 background-color: <?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?>;
                 color: <?php echo get_theme_mod("corTexto_rodape"); ?>
             }
-            
             nav a{font-weight: 700; text-transform: capitalize;}
-            
-            article p, article h1, article h2, article h3,article a,nav a{color:<?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?>!important;}
-            
+            .tag a,article p, article h1, article h2, article h3,article a,nav a{color:<?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?>!important;}
             input{border-color: <?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?>!important;}
-            
             footer a, header a{
                 color: <?php echo get_theme_mod("corTexto_rodape"); ?>!important;
             }
@@ -42,15 +38,15 @@
     </head>
 
     <body <?php body_class(); ?>>
-        
-        
+
+
         <header class="container-fluid">
             <div class="row-fluid">
                 <div class="col-sm-1"><?php echo Logotipo(); ?></div>
 
                 <div class="col-sm-5">
-                    <h1><?php echo bloginfo('title') ?></h1>
-                    <div><?php echo bloginfo('description'); ?></div>
+                    <h1><a href="<?php echo bloginfo('home')?>"><?php echo bloginfo('title') ?></a></h1>
+                    <div><a href="<?php echo bloginfo('home')?>"><?php echo bloginfo('description'); ?></a></div>
                 </div>
 
                 <div class="col-sm-6"><?php dynamic_sidebar("lateral direita do topo"); ?></div>

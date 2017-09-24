@@ -7,7 +7,7 @@ remove_action('init', 'wp_admin_bar_init');
 //set_post_thumbnail_size(825, 510, true);
 add_theme_support('title-tag');
 add_theme_support('custom-background', array('default-color' => 'white'));
-add_theme_support('custom-logo', array('height' => 90, 'width' => 90, 'flex-width' => true,));
+add_theme_support('custom-logo', array('height' => 150, 'width' => 150, 'flex-width' => true,));
 add_theme_support('menus', 'widget');
 add_theme_support('post-thumbnails');
 add_theme_support('title-tag');
@@ -124,4 +124,4 @@ register_sidebar(array(
 require_once "includes/meta_Boxe_page_template_landingpage.php";
 require_once 'includes/Texto.php';
 require_once 'includes/custom_post_home_page_landing.php';
-//require_once 'includes/opcoes.php';
+require_once 'includes/opcoes.php';
