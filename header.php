@@ -29,7 +29,10 @@
             }
             nav a{font-weight: 700; text-transform: capitalize;}
             .tag a,article p, article h1, article h2, article h3,article a,nav a{color:<?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?>!important;}
-            input{border-color: <?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?>!important;}
+            input{
+                color: <?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?>;
+            }
+            
             footer a, header a{
                 color: <?php echo get_theme_mod("corTexto_rodape"); ?>!important;
             }

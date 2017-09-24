@@ -106,6 +106,17 @@ register_sidebar(array(
     "after_widget" => "</div>",
 ));
 
+
+register_sidebar(array(
+    "name" => "elemento da direita",
+    "description" => "conteudo na direita da página",
+    "id" => "pageDireita",
+    "before_widget" => "<div class='col-sm-12 widget'>",
+    "after_widget" => "</div>",
+));
+
+
+
 register_sidebar(array(
     "name" => "rodape",
     "description" => "componentes da home",
