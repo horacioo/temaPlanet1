@@ -1,3 +1,16 @@
+/*
+Theme Name: Tema de landing page 
+Author: Horácio
+Author URI: http://planet1.com.br
+Description: Tema criado para sites em geral
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Anton|Lato|Playfair+Display|Wendy+One');
 
 .alignleft{float:left;}
@@ -85,4 +98,15 @@ form{
     margin-top: 3px;
     margin-bottom: 3px;
 }
-input{border: none;}
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.blog_lista{
+    border: 1px solid #e0e0e0;
+    margin: 2px;
+    border-radius: 6px;
+}
+.blog_lista img{border: 4px #ababab double;}

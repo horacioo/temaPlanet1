@@ -135,4 +135,5 @@ register_sidebar(array(
 require_once "includes/meta_Boxe_page_template_landingpage.php";
 require_once 'includes/Texto.php';
 require_once 'includes/custom_post_home_page_landing.php';
+//require_once 'includes/custom_post_blog.php';
 require_once 'includes/opcoes.php';
