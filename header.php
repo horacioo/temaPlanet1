@@ -24,17 +24,17 @@
 
         <style>
             footer, header, caption{
-                background-color: <?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?>;
-                color: <?php echo get_theme_mod("corTexto_rodape"); ?>
+                background-color: <?php echo get_theme_mod('cor1'); ?>;
+                color: <?php echo get_theme_mod("cor2"); ?>
             }
             nav a{font-weight: 700; text-transform: capitalize;}
-            .tag a,article p, article h1, article h2, article h3,article a,nav a{color:<?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?>!important;}
+            .tag a,article p, article h1, article h2, article h3,article a,nav a{color:<?php echo get_theme_mod('cor1'); ?>!important;}
             input{
-                color: <?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?>;
+                color: <?php echo get_theme_mod('cor1'); ?>;
             }
             
             footer a, header a{
-                color: <?php echo get_theme_mod("corTexto_rodape"); ?>!important;
+                color: <?php echo get_theme_mod("cor2"); ?>!important;
             }
         </style>
 
