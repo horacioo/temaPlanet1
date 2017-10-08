@@ -36,6 +36,6 @@ function registrar_home_page() {
     'supports' => array('post-formats', 'post-formats', 'title', 'thumbnail', 'custom-fields', 'revisions', 'editor', 'page-attributes') //Quais recursos serão usados (metabox)
     );
 
-    register_post_type('home_page', $args);
+    register_post_type('home', $args);
     flush_rewrite_rules();
 }
