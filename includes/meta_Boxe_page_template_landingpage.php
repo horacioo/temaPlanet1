@@ -6,7 +6,7 @@ function landing_page_function_meta_boxes() {
             'link', //ID
             'cores do site', //Título
             'funcao_que_vai_criar_meta_boxe', //callback
-            'home_page', //Post Type
+            'home', //Post Type
             'side', //Posição
             'default' //Prioridade
     );
