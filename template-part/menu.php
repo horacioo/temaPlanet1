@@ -11,7 +11,12 @@
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <?php wp_nav_menu(array('menu' => 'menu_principal', 'menu_class' => 'nav navbar-nav navbar-left')); ?> 
+
+            <?php if (is_home()) { ?>
+                <?php wp_nav_menu(array('menu' => 'home', 'menu_class' => 'nav navbar-nav navbar-left')); ?>
+            <?php } else { ?>
+                <?php wp_nav_menu(array('menu' => 'topo', 'menu_class' => 'nav navbar-nav navbar-left')); ?>
+            <?php } ?>
         </div>
     </div>
 </nav>

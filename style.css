@@ -1,112 +1,57 @@
 /*
-Theme Name: Tema de landing page 
+Theme Name: Tema de landing page versão 3.5
 Author: Horácio
 Author URI: http://planet1.com.br
 Description: Tema criado para sites em geral
-Version: 1
+Version: 3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Anton|Lato|Playfair+Display|Wendy+One');
-
-.alignleft{float:left;}
-.alignright{float:right;}
-.aligncenter {display: block; margin-left: auto; margin-right: auto}
-.alignleft,.alignright,.aligncenter{margin: 10px!important; border-radius: 5px;}
-
-
-
-.monster{
-    width: 100%;
-    height: auto;
-    margin: 0;
+.container-fluid{
+    border:0px solid red;
+    padding: 5px;
+    margin-bottom: 2px;
 }
 
-.home img{margin: 0;}
-
-
-h1,h2,h3{
-    text-transform: capitalize;
-    font-family: 'Anton', sans-serif;
-}
-header{
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    clear: both;
-    z-index: 10px;
-}
-body{
-    font-family: 'Lato';
-    font-size: 15px;    
-    line-height: 25px;
-    font-style:normal;
-    font-weight: 300;
-}
-.home > div{
-    height: auto; 
-    overflow: auto; 
-    /*padding-bottom: 10px; 
-    padding-top: 4px; 
-    padding-left: 0px; 
-    padding-right: 0px;*/
-}
-.Redes_Sociais_P1 a{margin-right: 2px;}
-
-.coluna_2{float: left; width: 45%; padding: 3px;}
-.coluna_3{float: left; width: 32%; padding: 3px;}
-.coluna_4{float: left; width: 24.5%; padding: 3px;}
-.coluna_5{float: left; width: 19.5%; padding: 3px;}
-
-
-.col-lg-12{
-    padding-left: 0;
-    padding-right: 0;
-}
-
-
-
-.navbar-default{background-color:rgba(255, 255, 0, 0); border: 0;}
-
-p h1{width: 800px; text-align: center;}
-
-footer{
-    min-height: 200px;
+header, footer{
+    padding-top: 20px!important; 
+    padding-bottom: 20px!important;
     height: auto;
     overflow: auto;
-    padding: 10px;
 }
 
-.conteudo_home{border: 0px solid red; padding: 20px;}
-
-
-article, .anuncios{ 
-    border: 1px solid #e0e0e0;
-    padding: 10px;
-    margin-bottom: 10px;
-    height: auto; overflow: auto;
+img{
+   max-width: 99%;
+   height: auto;
 }
 
-ul li{list-style: none;} 
-ul li img{border-radius: 5px;} 
-
-
-form{
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-input{
-    border: none;
-    padding: 5px;
-    border-radius: 5px;
+a{
+    text-decoration:none;
+    text-transform: capitalize;
 }
 
-.blog_lista{
-    border: 1px solid #e0e0e0;
-    margin: 2px;
-    border-radius: 6px;
+li{
+    list-style: none;
 }
-.blog_lista img{border: 4px #ababab double;}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aligncenter img,.alignleft img,.alignright img{padding: 5px;}
